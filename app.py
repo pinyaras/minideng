@@ -1,3 +1,5 @@
+
+
 import streamlit as st
 
 # Set page configuration
@@ -55,19 +57,42 @@ with cent_co:
 
 # Highlighted Links Section
 st.markdown("""
+<style>
+    .highlight-links {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 20px;
+        margin-top: 10px;
+        flex-wrap: wrap;
+    }
+    .highlight-links a, .highlight-links span {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        width: 100px;
+        margin: 5px;
+    }
+    .highlight-links img {
+        width: 24px;
+        height: 24px;
+        margin-bottom: 5px;
+    }
+</style>
 <div class="highlight-links">
     <a href="https://x.com/minideng044?s=11&t=H90QoX9jMleOIE04I4tVZA" target="_blank">
         <img src="https://img.icons8.com/ios-filled/50/000000/twitter.png" alt="Twitter"> Twitter
     </a>
-        <span>
-        <img src="https://img.icons8.com/ios-filled/50/000000/key.png" alt="Contract Address"> Contract Address: G2gceCPRVAqi6ex53EGNmxiG3jmpQ2Q7coizz7p8EBxY
+    <span>
+        <img src="https://img.icons8.com/ios-filled/50/000000/key.png" alt="Contract Address"> Contract Address:<br> G2gceCPRVAqi6ex53EGNmxiG3jmpQ2Q7coizz7p8EBxY
     </span>
     <a href="https://dexscreener.com/solana/HFT9ZygHLDEF5iSJpxuePngumg2jpRmtwNefh2wRH8nU" target="_blank">
         <img src="https://img.icons8.com/ios-filled/50/000000/line-chart.png" alt="DEX View"> DEX Screener
     </a>
-
 </div>
 """, unsafe_allow_html=True)
+
 
 
 # Mission Section
@@ -88,3 +113,6 @@ st.markdown('<div class="section">', unsafe_allow_html=True)
 st.subheader("Contact Us")
 st.write("Email: [contact@minideng.org](mailto:contact@minideng.org)")
 st.markdown('</div>', unsafe_allow_html=True)
+
+
+
