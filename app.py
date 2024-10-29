@@ -51,10 +51,34 @@ st.markdown("""
 
 # Title and centered image
 st.markdown('<h1 class="title">MiniDeng Animal Charity</h1>', unsafe_allow_html=True)
-left_co, cent_co,last_co = st.columns(3)
-with cent_co:
-    st.image("minideng.jpeg", width=150)
+left_co, cen_co, last_co = st.columns(3)
+with cen_co:
+    st.image("minideng.jpeg", width=250)
 
+# Right column with the buy button
+# Larger button below the image
+st.markdown(
+    """
+    <div style="text-align: center;">
+        <a href="https://dexscreener.com/solana/HFT9ZygHLDEF5iSJpxuePngumg2jpRmtwNefh2wRH8nU" target="_blank">
+            <button style="
+                background-color: #4CAF50; 
+                color: white; 
+                padding: 15px 30px; 
+                font-size: 18px; 
+                border: none; 
+                border-radius: 8px;
+                cursor: pointer;
+                width: 180px;
+                margin-top: 15px;
+            ">
+                Buy Here
+            </button>
+        </a>
+    </div>
+    """,
+    unsafe_allow_html=True
+)
 # Highlighted Links Section
 st.markdown("""
 <style>
@@ -107,6 +131,29 @@ st.subheader("Our Vision")
 st.write("We envision a world where hippos and other wildlife thrive in safe and secure habitats, free from human-induced threats. Our vision includes partnering with global conservation groups, supporting habitat restoration, and inspiring a new generation of wildlife advocates. Together, we can create lasting impacts that benefit both the environment and the creatures within it.")
 st.markdown('</div>', unsafe_allow_html=True)
 
+
+
+st.markdown('<div class="section" style="text-align: left;">', unsafe_allow_html=True)
+st.subheader("How to Buy MiniDeng ($MINIDENG)")
+
+# Step 1
+st.markdown('<div style="text-align: left;"><strong>Step 1: Set Up a Wallet</strong></div>', unsafe_allow_html=True)
+st.write("Head to [phantom.app](https://phantom.app) and follow the instructions to create an account using the Phantom app or browser extension.")
+
+# Step 2
+st.markdown('<div style="text-align: left;"><strong>Step 2: Acquire $SOL</strong></div>', unsafe_allow_html=True)
+st.write("In the Phantom app, tap **BUY** to purchase Solana (\$SOL) directly, or transfer \$SOL from a cryptocurrency exchange to your Phantom wallet.")
+
+# Step 3
+st.markdown('<div style="text-align: left;"><strong>Step 3: Swap $SOL for $MINIDENG</strong></div>', unsafe_allow_html=True)
+st.write("Select **SWAP** in your Phantom wallet, paste the **\$MINIDENG** token address **G2gceCPRVAqi6ex53EGNmxiG3jmpQ2Q7coizz7p8EBxY**, and exchange your **\$SOL** for **\$MINIDENG**.")
+
+# Step 4
+st.markdown('<div style="text-align: left;"><strong>Step 4: Join the MiniDeng Community</strong></div>', unsafe_allow_html=True)
+st.write("Congratulations on joining the MiniDeng family! For added convenience, **\$MINIDENG** will be available for purchase via Apple Pay on Moonshot soon.")
+
+# Close the main section div
+st.markdown('</div>', unsafe_allow_html=True)
 
 
 
