@@ -109,10 +109,7 @@ st.markdown('</div>', unsafe_allow_html=True)
 
 
 
-st.markdown('<div class="section">', unsafe_allow_html=True)
-st.subheader("Contact Us")
-st.write("Email: [contact@minideng.org](mailto:contact@minideng.org)")
-st.markdown('</div>', unsafe_allow_html=True)
+
 
 
 
