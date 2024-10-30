@@ -60,7 +60,7 @@ with cen_co:
 st.markdown(
     """
     <div style="text-align: center;">
-        <a href="https://dexscreener.com/solana/HFT9ZygHLDEF5iSJpxuePngumg2jpRmtwNefh2wRH8nU" target="_blank">
+        <a href="https://dexscreener.com/solana/g2gcecprvaqi6ex53egnmxig3jmpq2q7coizz7p8ebxy" target="_blank">
             <button style="
                 background-color: #4CAF50; 
                 color: white; 
@@ -111,7 +111,7 @@ st.markdown("""
     <span>
         <img src="https://img.icons8.com/ios-filled/50/000000/key.png" alt="Contract Address"> Contract Address:<br> G2gceCPRVAqi6ex53EGNmxiG3jmpQ2Q7coizz7p8EBxY
     </span>
-    <a href="https://dexscreener.com/solana/HFT9ZygHLDEF5iSJpxuePngumg2jpRmtwNefh2wRH8nU" target="_blank">
+    <a href="https://dexscreener.com/solana/g2gcecprvaqi6ex53egnmxig3jmpq2q7coizz7p8ebxy" target="_blank">
         <img src="https://img.icons8.com/ios-filled/50/000000/line-chart.png" alt="DEX View"> DEX Screener
     </a>
 </div>
